@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: firebrick;
+}
+
+.container h1 {
+  color: #ddd;
+  padding: 15px;
+}
+
+.container ul {
+  display: flex;
+}
+
+.container ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.container ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ddd;
+}
